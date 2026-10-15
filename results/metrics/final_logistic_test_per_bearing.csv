@@ -1,0 +1,6 @@
+bearing_code,actual_class,windows,correct_windows,accuracy,predicted_fault_rate
+K001,0,3200,3200,1.0,0.0
+K002,0,3206,563,0.17560823456019964,0.8243917654398004
+KA16,1,3200,3200,1.0,1.0
+KI16,1,3222,3222,1.0,1.0
+KI18,1,3200,3200,1.0,1.0

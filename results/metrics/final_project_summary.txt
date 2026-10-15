@@ -1,0 +1,73 @@
+============================================================
+LIGHTWEIGHT EDGE AIoT FRAMEWORK FOR BEARING FAULT DETECTION
+============================================================
+
+DATASET
+-------
+Dataset: Paderborn Bearing Dataset
+Feature count: 19
+Target classes: Healthy and Faulty
+Split strategy: Bearing-disjoint
+
+PRIMARY MODEL
+-------------
+Algorithm: Logistic Regression
+Decision threshold: 0.85
+
+INDEPENDENT TEST RESULTS
+------------------------
+Accuracy: 83.51%
+Macro-F1: 80.97%
+Healthy recall: 58.74%
+Faulty recall: 100%
+
+Confusion Matrix:
+[[3763, 2643],
+ [   0, 9622]]
+
+K002 False Alarm Rate: 82.44%
+
+COMPARISON MODEL
+----------------
+Algorithm: K-Means
+Clusters: 16
+Accuracy: 83.70%
+Macro-F1: 81.22%
+Healthy recall: 59.23%
+Faulty recall: 100%
+
+EDGE AIoT IMPLEMENTATION
+------------------------
+Inference: Python / scikit-learn
+Communication: MQTT
+Broker: Eclipse Mosquitto
+Dashboard: Streamlit
+Alert Rule: 3 consecutive faulty predictions
+
+DEMONSTRATION RESULTS
+---------------------
+Faulty Bearing: KA04
+Windows: 30
+Fault Predictions: 30
+Alarm Activated: Window 3
+
+Healthy Bearing: K006
+Windows: 30
+Healthy Predictions: 30
+Alarm Status: NORMAL
+
+Average Inference Time (KA04 replay): 6.508 ms
+
+LIMITATIONS
+-----------
+1. K002 produces a high false-alarm rate.
+2. Demonstrations use replayed vibration features.
+3. No physical sensor or microcontroller deployment.
+4. Inference timing excludes feature extraction and
+   communication delays.
+5. The repeatedly examined test bearings should not
+   be described as a fresh, untouched evaluation.
+
+============================================================
+END OF PROJECT SUMMARY
+============================================================

@@ -1,0 +1,9 @@
+model,fold,accuracy,macro_f1,healthy_recall,faulty_recall
+Global_Standardization,1,0.9829847018420231,0.9777552437750083,0.9965646470955652,0.9784599375650365
+Global_Standardization,2,0.8950202934748673,0.8755558264469957,1.0,0.8600707449022056
+Global_Standardization,3,1.0,1.0,1.0,1.0
+Global_Standardization,4,1.0,1.0,1.0,1.0
+Condition_Aware_Standardization,1,1.0,1.0,1.0,1.0
+Condition_Aware_Standardization,2,0.7501561036528255,0.7334109532410196,1.0,0.6669787765293383
+Condition_Aware_Standardization,3,1.0,1.0,1.0,1.0
+Condition_Aware_Standardization,4,0.9952148132736919,0.994594270144931,0.98562949078413,1.0

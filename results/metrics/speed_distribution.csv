@@ -1,0 +1,13 @@
+split,target,speed_rpm,records
+Test,0,900,1599
+Test,0,1500,4807
+Test,1,900,2400
+Test,1,1500,7222
+Train,0,900,2400
+Train,0,1500,7202
+Train,1,900,5612
+Train,1,1500,16817
+Validation,0,900,800
+Validation,0,1500,2401
+Validation,1,900,2398
+Validation,1,1500,7209

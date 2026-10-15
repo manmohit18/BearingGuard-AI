@@ -1,0 +1,11 @@
+model,bearing_code,actual_class,records,accuracy
+Logistic Regression,K001,0,3200,0.99125
+Logistic Regression,K002,0,3206,0.06425452276980662
+Logistic Regression,KA16,1,3200,1.0
+Logistic Regression,KI16,1,3222,1.0
+Logistic Regression,KI18,1,3200,1.0
+Random Forest,K001,0,3200,0.9515625
+Random Forest,K002,0,3206,0.0470991890205864
+Random Forest,KA16,1,3200,1.0
+Random Forest,KI16,1,3222,1.0
+Random Forest,KI18,1,3200,1.0

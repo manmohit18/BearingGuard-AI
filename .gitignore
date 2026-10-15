@@ -1,0 +1,36 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code local settings
+.vscode/
+
+# Raw and processed datasets
+dataset/raw/
+dataset/processed/
+
+# Large trained model files
+models/*.joblib
+models/*.pkl
+models/*.h5
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Streamlit local configuration
+.streamlit/secrets.toml

@@ -1,0 +1,29 @@
+model,fold,bearing_code,actual_class,accuracy
+Logistic Regression,1,K003,0,0.9965646470955652
+Logistic Regression,1,KA04,1,1.0
+Logistic Regression,1,KB24,1,0.9353529044347283
+Logistic Regression,1,KB27,1,1.0
+K-Means,1,K003,0,0.9684572142410993
+K-Means,1,KA04,1,1.0
+K-Means,1,KB24,1,1.0
+K-Means,1,KB27,1,1.0
+Logistic Regression,2,K004,0,1.0
+Logistic Regression,2,KA22,1,1.0
+Logistic Regression,2,KA30,1,0.5801312089971884
+Logistic Regression,2,KI14,1,0.9996879875195008
+K-Means,2,K004,0,0.9921875
+K-Means,2,KA22,1,1.0
+K-Means,2,KA30,1,0.9353327085285849
+K-Means,2,KI14,1,1.0
+Logistic Regression,3,K005,0,1.0
+Logistic Regression,3,KB23,1,1.0
+Logistic Regression,3,KI21,1,1.0
+K-Means,3,K005,0,0.998125
+K-Means,3,KB23,1,0.9959400374765771
+K-Means,3,KI21,1,1.0
+Logistic Regression,4,K006,0,1.0
+Logistic Regression,4,KA15,1,1.0
+Logistic Regression,4,KI17,1,1.0
+K-Means,4,K006,0,0.9468915963761324
+K-Means,4,KA15,1,1.0
+K-Means,4,KI17,1,1.0
